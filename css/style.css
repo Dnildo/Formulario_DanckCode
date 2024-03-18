@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(5deg, rgb(102, 216, 150) 3% 50%, rgb(133, 133, 213) 20% 90%)
+}
+
+form{
+    display: inline-block;
+    margin: auto 35%;
+   padding-left: 2%;
+}
+fieldset{
+  box-shadow: 3px 3px 3px 2px #2d2c2c;
+margin-left: 26%;
+margin-right: 38%;
+   padding-left: 7%;
+   background: linear-gradient(.3turn, rgb(224, 220, 220), 40%, rgba(142, 134, 134, 0.058), 30%, rgb(128, 99, 99));
+}
+#nome{
+    margin: 6% 17%;
+    padding-left: 2%; 
+
+}
+#email{
+    margin: 6% 17%;
+    padding-left: 2%; 
+
+}
+#list{margin: 4% 19%;
+padding-left: 2%; 
+}
+
+input[type=checkbox]{
+    margin: auto 25%;
+    padding-left: 2%;
+    background-color: red;
+}
+.radios{
+
+margin-left: 10%;
+}
+#spa{
+    margin-left: 3%;
+    margin-right: 8%;
+    margin-top: 14%;
+    padding-left: 23%;
+    padding-top: 14%;
+}
+#radio1{
+    margin-left: 13%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-left: 2%; 
+
+}
+
+#radio2{
+    margin-left: 13%;
+    margin-right: 4%;
+    margin-top: 5%;
+    padding-left: 2%; 
+
+}
+
+#radio3{
+    margin-left: 13%;
+    margin-right: 4%;
+    margin-top: 5%;
+    padding-left: 2%; 
+
+
+}
+label{ 
+    display: inline-block;
+color: rgb(215, 25, 25);
+width: 5px;
+height: 8px;
+}
+
+
+input[type=checkbox]:checked ~* label{
+    width: 5px;
+    height: 8px;
+    font-size: 4px;
+    background-color: rgb(51, 242, 13);
+ 
+}
+
+#check1{
+    margin-left: 17%;
+    margin-right: 3%;
+    margin-top: 2%;
+    padding-left: -34%;
+}
+#check2{
+    margin-left: 17%;
+    margin-right: 3%;
+    margin-top: 2%;
+    padding-left: 20%;
+
+}
+
+.checkboxchecked{
+    
+margin-left: 10%;
+}
+
+.textare{
+    margin-left: 14%;
+}
+
+.textare > textarea{
+    margin-left: 12% ;
+}
